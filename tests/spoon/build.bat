@@ -1,0 +1,2 @@
+
+call java -jar spoon-runner-1.1.1-jar-with-dependencies.jar --apk D:\android\eclipse\workspace\GameOfLife\bin\GameOfLife.apk --test-apk D:\android\eclipse\workspace\GameOfLifeTests\bin\GameOfLifeTests.apk --size medium

@@ -1,0 +1,582 @@
+{
+  "title": "Spoon Execution",
+  "testSize": "MEDIUM",
+  "started": 1399132607210,
+  "duration": 22,
+  "results": {
+    "192_168_56_101_5555": {
+      "installFailed": false,
+      "deviceDetails": {
+        "model": "Google Nexus 7 - 4.1.1 - API 16 - 800x1280",
+        "manufacturer": "Genymotion",
+        "version": "4.1.1",
+        "apiLevel": 16,
+        "language": "en",
+        "region": "US",
+        "isEmulator": false
+      },
+      "testResults": [
+        [
+          {
+            "className": "com.example.app.ui.test.GenerationTest",
+            "methodName": "testChangeState"
+          },
+          {
+            "status": "PASS",
+            "duration": 2,
+            "screenshots": [
+              "D:\\android\\eclipse\\workspace\\GameOfLifeTests\\spoon\\spoon-output\\image\\192_168_56_101_5555\\com.example.app.ui.test.GenerationTest\\testChangeState\\1399132613435_Start_game.png",
+              "D:\\android\\eclipse\\workspace\\GameOfLifeTests\\spoon\\spoon-output\\image\\192_168_56_101_5555\\com.example.app.ui.test.GenerationTest\\testChangeState\\1399132614202_Tap_to_cell.png"
+            ],
+            "animatedGif": "D:\\android\\eclipse\\workspace\\GameOfLifeTests\\spoon\\spoon-output\\image\\192_168_56_101_5555\\com.example.app.ui.test.GenerationTest\\testChangeState.gif",
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "05-03 15:56:52.320",
+                "mMessage": "started: testChangeState(com.example.app.ui.test.GenerationTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2570",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:52.388",
+                "mMessage": "GC_CONCURRENT freed 335K, 14% free 5342K/6151K, paused 10ms+0ms, total 16ms"
+              },
+              {
+                "mLogLevel": "ASSERT",
+                "mPid": "2567",
+                "mTid": "2576",
+                "mAppName": "",
+                "mTag": "PowerManager",
+                "mTime": "05-03 15:56:52.392",
+                "mMessage": "WakeLock finalized while still held: SpoonInstrumentationTestRunner"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2570",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:52.516",
+                "mMessage": "GC_CONCURRENT freed 254K, 11% free 5497K/6151K, paused 10ms+1ms, total 16ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2567",
+                "mAppName": "",
+                "mTag": "libEGL",
+                "mTime": "05-03 15:56:52.556",
+                "mMessage": "loaded /system/lib/egl/libEGL_emulation.so"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2567",
+                "mAppName": "",
+                "mTag": "",
+                "mTime": "05-03 15:56:52.556",
+                "mMessage": "HostConnection::get() New Host Connection established 0xb83bd440, tid 2567"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2567",
+                "mAppName": "",
+                "mTag": "libEGL",
+                "mTime": "05-03 15:56:52.556",
+                "mMessage": "loaded /system/lib/egl/libGLESv1_CM_emulation.so"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2567",
+                "mAppName": "",
+                "mTag": "libEGL",
+                "mTime": "05-03 15:56:52.556",
+                "mMessage": "loaded /system/lib/egl/libGLESv2_emulation.so"
+              },
+              {
+                "mLogLevel": "WARN",
+                "mPid": "2567",
+                "mTid": "2567",
+                "mAppName": "",
+                "mTag": "EGL_emulation",
+                "mTime": "05-03 15:56:52.580",
+                "mMessage": "eglSurfaceAttrib not implemented"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2567",
+                "mAppName": "",
+                "mTag": "OpenGLRenderer",
+                "mTime": "05-03 15:56:52.584",
+                "mMessage": "Enabling debug mode 0"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2570",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:52.624",
+                "mMessage": "GC_CONCURRENT freed 240K, 11% free 5703K/6343K, paused 10ms+0ms, total 12ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2567",
+                "mAppName": "",
+                "mTag": "OpenGLRenderer",
+                "mTime": "05-03 15:56:52.652",
+                "mMessage": "TextureCache::get: create texture(0xb837c420): name, size, mSize \u003d 1, 1048576, 1048576"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2567",
+                "mAppName": "",
+                "mTag": "OpenGLRenderer",
+                "mTime": "05-03 15:56:52.700",
+                "mMessage": "TextureCache::get: create texture(0xb8373010): name, size, mSize \u003d 2, 1296, 1049872"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2567",
+                "mAppName": "",
+                "mTag": "OpenGLRenderer",
+                "mTime": "05-03 15:56:52.708",
+                "mMessage": "TextureCache::get: create texture(0xb83b6e28): name, size, mSize \u003d 3, 5184, 1055056"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2567",
+                "mAppName": "",
+                "mTag": "OpenGLRenderer",
+                "mTime": "05-03 15:56:52.728",
+                "mMessage": "TextureCache::get: create texture(0xb83588a8): name, size, mSize \u003d 5, 256, 1055312"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2567",
+                "mAppName": "",
+                "mTag": "OpenGLRenderer",
+                "mTime": "05-03 15:56:52.728",
+                "mMessage": "TextureCache::get: create texture(0xb834f7f8): name, size, mSize \u003d 6, 576, 1055888"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:53.432",
+                "mMessage": "GC_FOR_ALLOC freed 120K, 8% free 5903K/6407K, paused 2ms, total 2ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "05-03 15:56:53.432",
+                "mMessage": "Grow heap (frag case) to 7.491MB for 1466892-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:53.436",
+                "mMessage": "GC_FOR_ALLOC freed 0K, 7% free 7335K/7879K, paused 3ms, total 3ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2570",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:53.440",
+                "mMessage": "GC_CONCURRENT freed \u003c1K, 7% free 7336K/7879K, paused 1ms+2ms, total 4ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "Spoon",
+                "mTime": "05-03 15:56:53.488",
+                "mMessage": "Captured screenshot \u0027Start_game\u0027."
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2567",
+                "mAppName": "",
+                "mTag": "OpenGLRenderer",
+                "mTime": "05-03 15:56:53.712",
+                "mMessage": "TextureCache::get: create texture(0xb836a438): name, size, mSize \u003d 37, 100, 1055988"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:54.200",
+                "mMessage": "GC_FOR_ALLOC freed 1528K, 26% free 5907K/7879K, paused 2ms, total 2ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "05-03 15:56:54.200",
+                "mMessage": "Grow heap (frag case) to 7.495MB for 1466892-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:54.200",
+                "mMessage": "GC_FOR_ALLOC freed 0K, 7% free 7340K/7879K, paused 2ms, total 2ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2570",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:54.208",
+                "mMessage": "GC_CONCURRENT freed \u003c1K, 7% free 7340K/7879K, paused 0ms+3ms, total 6ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "Spoon",
+                "mTime": "05-03 15:56:54.260",
+                "mMessage": "Captured screenshot \u0027Tap_to_cell\u0027."
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:54.288",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 0ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:54.296",
+                "mMessage": "GC_EXPLICIT freed 1459K, 26% free 5894K/7879K, paused 1ms+2ms, total 8ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:54.296",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 0ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:54.304",
+                "mMessage": "GC_EXPLICIT freed 50K, 26% free 5843K/7879K, paused 1ms+0ms, total 8ms"
+              },
+              {
+                "mLogLevel": "WARN",
+                "mPid": "2567",
+                "mTid": "2567",
+                "mAppName": "",
+                "mTag": "IInputConnectionWrapper",
+                "mTime": "05-03 15:56:54.392",
+                "mMessage": "showStatusIcon on inactive InputConnection"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "05-03 15:56:55.308",
+                "mMessage": "finished: testChangeState(com.example.app.ui.test.GenerationTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "com.example.app.ui.test.GenerationTest",
+            "methodName": "testNextGeneration"
+          },
+          {
+            "status": "PASS",
+            "duration": 5,
+            "screenshots": [
+              "D:\\android\\eclipse\\workspace\\GameOfLifeTests\\spoon\\spoon-output\\image\\192_168_56_101_5555\\com.example.app.ui.test.GenerationTest\\testNextGeneration\\1399132616366_Start_game.png",
+              "D:\\android\\eclipse\\workspace\\GameOfLifeTests\\spoon\\spoon-output\\image\\192_168_56_101_5555\\com.example.app.ui.test.GenerationTest\\testNextGeneration\\1399132617537_Tap_to_cell.png",
+              "D:\\android\\eclipse\\workspace\\GameOfLifeTests\\spoon\\spoon-output\\image\\192_168_56_101_5555\\com.example.app.ui.test.GenerationTest\\testNextGeneration\\1399132619803_State_after_next_generation.png"
+            ],
+            "animatedGif": "D:\\android\\eclipse\\workspace\\GameOfLifeTests\\spoon\\spoon-output\\image\\192_168_56_101_5555\\com.example.app.ui.test.GenerationTest\\testNextGeneration.gif",
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "05-03 15:56:55.308",
+                "mMessage": "started: testNextGeneration(com.example.app.ui.test.GenerationTest)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2570",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:55.468",
+                "mMessage": "GC_CONCURRENT freed 228K, 24% free 5999K/7879K, paused 10ms+0ms, total 17ms"
+              },
+              {
+                "mLogLevel": "WARN",
+                "mPid": "2567",
+                "mTid": "2567",
+                "mAppName": "",
+                "mTag": "EGL_emulation",
+                "mTime": "05-03 15:56:55.524",
+                "mMessage": "eglSurfaceAttrib not implemented"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2570",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:55.556",
+                "mMessage": "GC_CONCURRENT freed 275K, 23% free 6107K/7879K, paused 10ms+0ms, total 14ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:56.364",
+                "mMessage": "GC_FOR_ALLOC freed 104K, 20% free 6380K/7879K, paused 2ms, total 2ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "05-03 15:56:56.364",
+                "mMessage": "Grow heap (frag case) to 7.958MB for 1466892-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:56.364",
+                "mMessage": "GC_FOR_ALLOC freed 0K, 17% free 7813K/9351K, paused 3ms, total 3ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2570",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:56.372",
+                "mMessage": "GC_CONCURRENT freed 14K, 17% free 7798K/9351K, paused 0ms+0ms, total 4ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "Spoon",
+                "mTime": "05-03 15:56:56.408",
+                "mMessage": "Captured screenshot \u0027Start_game\u0027."
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:57.536",
+                "mMessage": "GC_FOR_ALLOC freed 1631K, 32% free 6382K/9351K, paused 3ms, total 3ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "05-03 15:56:57.536",
+                "mMessage": "Grow heap (frag case) to 7.960MB for 1466892-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:57.536",
+                "mMessage": "GC_FOR_ALLOC freed 0K, 17% free 7815K/9351K, paused 3ms, total 3ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2570",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:57.544",
+                "mMessage": "GC_CONCURRENT freed 7K, 17% free 7807K/9351K, paused 0ms+1ms, total 4ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "Spoon",
+                "mTime": "05-03 15:56:57.592",
+                "mMessage": "Captured screenshot \u0027Tap_to_cell\u0027."
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:59.804",
+                "mMessage": "GC_FOR_ALLOC freed 1518K, 32% free 6382K/9351K, paused 6ms, total 6ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "05-03 15:56:59.804",
+                "mMessage": "Grow heap (frag case) to 7.960MB for 1466892-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:59.808",
+                "mMessage": "GC_FOR_ALLOC freed 0K, 17% free 7814K/9351K, paused 5ms, total 5ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2570",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:59.824",
+                "mMessage": "GC_CONCURRENT freed 5K, 17% free 7809K/9351K, paused 10ms+1ms, total 15ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "Spoon",
+                "mTime": "05-03 15:56:59.872",
+                "mMessage": "Captured screenshot \u0027State_after_next_generation\u0027."
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:59.896",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 0ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:59.916",
+                "mMessage": "GC_EXPLICIT freed 1447K, 32% free 6376K/9351K, paused 2ms+1ms, total 18ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:59.916",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 0ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "05-03 15:56:59.944",
+                "mMessage": "GC_EXPLICIT freed 48K, 33% free 6329K/9351K, paused 0ms+1ms, total 27ms"
+              },
+              {
+                "mLogLevel": "WARN",
+                "mPid": "2567",
+                "mTid": "2567",
+                "mAppName": "",
+                "mTag": "IInputConnectionWrapper",
+                "mTime": "05-03 15:57:00.020",
+                "mMessage": "showStatusIcon on inactive InputConnection"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "2567",
+                "mTid": "2580",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "05-03 15:57:00.944",
+                "mMessage": "finished: testNextGeneration(com.example.app.ui.test.GenerationTest)"
+              }
+            ]
+          }
+        ]
+      ],
+      "started": 1399132607504,
+      "duration": 8,
+      "exceptions": []
+    }
+  }
+}

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.app.test" tests="2" failures="0" errors="0" time="8.626" timestamp="2014-05-03T15:56:57" hostname="localhost">
+  <properties />
+  <testcase name="testChangeState" classname="com.example.app.ui.test.GenerationTest" time="2.931" />
+  <testcase name="testNextGeneration" classname="com.example.app.ui.test.GenerationTest" time="5.662" />
+</testsuite>

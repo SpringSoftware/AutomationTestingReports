@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50sp"
+    android:background="@color/Maroon" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_launcher" />
+
+    <ToggleButton
+        android:id="@+id/btnStart"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnNextGeneration"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/btnNextGeneration"
+        android:background="@drawable/button_backg"
+        android:textColor="@color/white"
+        android:textOff="@string/start"
+        android:textOn="@string/stop" />
+
+    <Button
+        android:id="@+id/btnNextGeneration"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/btnStart"
+        android:background="@drawable/button_backg"
+        android:text="@string/next_gener"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
